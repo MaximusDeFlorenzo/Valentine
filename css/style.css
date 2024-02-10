@@ -1,0 +1,31 @@
+body {
+    background-color: white;
+}
+
+.Ask {
+    margin-top: 1rem;
+    color: #475c6c;
+}
+
+.Valentine {
+    color: red;
+}
+
+#yeay {
+    width: 10rem;
+    height: 10rem;
+}
+
+#start {
+    width: 10rem;
+    height: 10rem;
+    display: none;
+}
+
+#yes, #no {
+    font-size: 18px;
+}
+
+.buttonS {
+    margin-top: 1rem; 
+}
