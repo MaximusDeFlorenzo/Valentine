@@ -1,5 +1,15 @@
+.protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 body {
     background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .Ask {
@@ -28,4 +38,84 @@ body {
 
 .buttonS {
     margin-top: 1rem; 
+}
+
+
+/* Happy Valentine CSS */
+
+#bear {
+    width: 10rem;
+    height: 10rem;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+#second {
+    display: none;
+}
+
+.Red {
+    color: red;
+}
+
+.imageS {
+    text-align: center;
+}
+
+.imageS img {
+    display: inline-block;
+    margin: 0 auto;
+}   
+
+#give {
+    width: 15rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+    display: none;
+}
+
+.container-image {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+.middleImage {
+    float: left;
+    width: 10rem;
+    height: 10rem;
+    margin-left: 15rem;
+}
+
+.middle {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .middleImage, .middle {
+        width: 100%;
+        float: none;
+    }
+}
+
+#give2 {
+    margin-bottom: 1rem;
+    width: 20rem;
+    height: 20rem;
+    display: none;
+}
+
+.sub3 {
+    display: none;
+}
+
+.sub2, .middle, .middleImage, .container-image {
+    display: none;
 }

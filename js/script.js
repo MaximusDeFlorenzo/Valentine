@@ -2,6 +2,33 @@ let noCount = 1;
 title = document.querySelector('.Ask')
 yesText = document.getElementById('yes')
 noTest = document.getElementById('no')
+startButton = document.querySelector('.startButton')
+
+
+// Happy Valentine JS
+document.getElementById('yesStart').addEventListener('click', function() {
+    document.getElementById('bear').style.display = 'none';
+    document.getElementById('yesStart').style.display = 'none';
+    document.querySelector('.sub1').style.display = 'none';
+    document.getElementById('second').style.display = 'inline';
+    document.getElementById('give').style.display = 'inline';
+    document.querySelector('.sub2').style.display = 'inline';
+    document.querySelector('.middle').style.display = 'inline';
+    document.querySelector('.middleImage').style.display = 'inline';
+    document.querySelector('.container-image').style.display = 'inline';
+
+})
+
+document.getElementById('second').addEventListener('click', function() {
+    document.getElementById('second').style.display = 'none';
+    document.getElementById('give').style.display = 'none';
+    document.querySelector('.sub2').style.display = 'none';
+    document.querySelector('.middle').style.display = 'none';
+    document.querySelector('.middleImage').style.display = 'none';
+    document.querySelector('.container-image').style.display = 'none';
+    document.getElementById('give2').style.display = 'inline'
+    document.querySelector('.sub3').style.display = 'inline'
+})
 
 document.getElementById('yes').addEventListener('click', function() {
     title.innerText = "Yeay!";
